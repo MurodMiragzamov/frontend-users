@@ -1,0 +1,39 @@
+.reg__header {
+  text-align: center;
+  margin: 50px 0;
+}
+.reg__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: dimgray;
+  padding: 30px;
+  border-radius: 3px;
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  button {
+    padding: 5px 20px;
+    background: #fff;
+    color: dimgray;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    &:hover {
+      background: dimgray;
+      color: #fff;
+      transition: 0.3s;
+    }
+  }
+}
+.reg__p {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}

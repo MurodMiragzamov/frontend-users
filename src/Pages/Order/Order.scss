@@ -1,0 +1,35 @@
+.ord__header {
+  text-align: center;
+}
+.ord__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  padding: 30px;
+  padding-top: 40px;
+  background: dimgray;
+  border-radius: 3px;
+  input {
+    margin-bottom: 15px;
+    padding: 10px 5px;
+  }
+  select {
+    margin-bottom: 30px;
+    padding: 10px 5px;
+  }
+  button {
+    padding: 10px 0;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 18px;
+    border: 1px solid #fff;
+    background: #fff;
+
+    &:hover {
+      background: dimgray;
+      color: #fff;
+      transition: 0.3s;
+    }
+  }
+}
